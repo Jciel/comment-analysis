@@ -1,6 +1,9 @@
 (defproject comment-analysis "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.8.0"]])
+  :description "Project presented as work on AI discipline of Computer Science Course"
+  :url "jciel.github.io"
+  :license {:name "MIT"
+            :url ""}
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [snowball-stemmer "0.1.0"]
+                 [cc.artifice/clj-ml "0.8.7"]]
+  :main comment-analysis.core/main)
