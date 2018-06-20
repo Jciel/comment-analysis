@@ -24,7 +24,7 @@ Where the ';' is the delimiter between the comment and its class
 1 - Is class Positive  
 
 
-In the tests performed using 1317 positive and negative comments, 70% for training and 30% for testing, I obtained the 
+In the tests performed using 1317 positive and negative comments, ~70% for training and ~30% for testing, I obtained the 
 following results.
 ```
 {
