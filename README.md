@@ -1,14 +1,23 @@
 # comment-analysis
 
-A Clojure library designed to ... well, that part is up to you.
+Implementation of a comment classifier using Machine Learning presented in the AI ​​course of Computer Science course
 
 ## Usage
 
-FIXME
+First you must have Clojure and Leiningen installed [Clojure](https://clojure.org/guides/getting_started) and
+[Leiningen](https://leiningen.org/#install).
 
-## License
 
-Copyright © 2018 FIXME
+In a directory in the root of the project called 'comments' you have the files where the comments are that will be used 
+for training separated in two files.  
+- CommentsNegative
+- CommentsPositive
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+The comments are in the following format  
+```
+"Coments are;0"
+```
+Where the ';' is the delimiter between the comment and its class  
+0 - Is class Negative  
+1 - Is class Positive
+
