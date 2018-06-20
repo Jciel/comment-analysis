@@ -1,7 +1,8 @@
 # comment-analysis
 
 Implementation of a comment classifier using Machine Learning presented in the AI ​​course of Computer Science course.  
-Created a comment classifier using Machine Learning with the Naive Bayes algorithm
+Created a comment classifier using Machine Learning with the Naive Bayes algorithm, with the objective of classifying 
+comments in two classes, Positive (1) and Negative (0).
 
 ## Usage
 
@@ -94,3 +95,9 @@ following results.
     :correct 510.0
 }
 ```
+
+### Considerations  
+I observed that some comments with class "Negative" were positive comments and the opposite also happened, this may 
+cause some inconsistencies in the algorithm, which may cause poor performance.
+
+
