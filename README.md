@@ -2,7 +2,7 @@
 
 Implementation of a comment classifier using Machine Learning presented in the AI ​​discipline discipline of computer science course.  
 Created a comment classifier using Machine Learning with the Naive Bayes algorithm, with the objective of classifying 
-comments in two classes, Positive (1) and Negative (0). For more details visit [blog](http://127.0.0.1:4000/2018/Clojure-Classificacao-de-comentarios-com-machine-learning/)(in portuguese)
+comments in two classes, Positive (1) and Negative (0). For more details visit [blog](https://jciel.github.io/2018/Clojure-Classificacao-de-comentarios-com-machine-learning/)(in portuguese)
 
 ## Usage
 
